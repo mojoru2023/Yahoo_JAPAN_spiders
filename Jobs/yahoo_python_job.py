@@ -12,7 +12,7 @@ driver = webdriver.Chrome()
 # 把find_elements 改为　find_element
 def get_first_page():
 
-    url = 'https://job.yahoo.co.jp/jobs/%E8%A8%BC%E5%88%B8%E9%96%A2%E9%80%A3%E3%81%AE%E6%B1%82%E4%BA%BA-%E6%9D%B1%E4%BA%AC%E9%83%BD?ssid=3fb41879-ac39-4766-9908-1e70fab43df0'
+    url = 'https://job.yahoo.co.jp/jobs/python%E9%96%A2%E9%80%A3%E3%81%AE%E6%B1%82%E4%BA%BA-%E6%9D%B1%E4%BA%AC%E9%83%BD'
     driver.get(url)
 
 
@@ -60,7 +60,7 @@ def insertDB(content):
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cursor = connection.cursor()
     try:
-        cursor.executemany('insert into yahoo_security_jobs (job_name,link,info1,short_info,info_from) values (%s,%s,%s,%s,%s)', content)
+        cursor.executemany('insert into yahoo_python_jobs (job_name,link,info1,short_info,info_from) values (%s,%s,%s,%s,%s)', content)
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
@@ -84,17 +84,17 @@ if __name__ == '__main__':
 #
 
 # # #
-# create table yahoo_security_jobs(
+# create table yahoo_python_jobs(
 # id int not null primary key auto_increment,
 # job_name text,
 # link text,
-# info1 varchar(20),
+# info1 varchar(50),
 # short_info varchar(80),
 # info_from text
 # ) engine=InnoDB  charset=utf8;
 #
 #
 #
-# drop table yahoo_security_jobs;
+# drop table yahoo_python_jobs;
 #
 
