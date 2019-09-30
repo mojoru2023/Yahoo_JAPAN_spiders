@@ -35,25 +35,22 @@ from selenium import webdriver
 
 
 def call_page(url):
-    # options = webdriver.ChromeOptions()
-    # options.add_argument("--no-sandbox")
-    # driver = webdriver.Chrome("/usr/bin/chromedriver", chrome_options=options)
-    # driver.get(url)
-    # html = driver.page_source
-    # return html
     try:
         response = requests.get(url)
-        time.sleep(1)
+        time.sleep(8)
         if response.status_code == 200:
             return response.text
         return None
     except RequestException:
         return None
 
-
-
-
-
+    # options = webdriver.ChromeOptions()
+    # options.add_argument("--no-sandbox")
+    # driver = webdriver.Chrome("/usr/bin/chromedriver", chrome_options=options)
+    # driver.get(url)
+    # html = driver.page_source
+    # return html
+    #
 
 
 
@@ -111,42 +108,35 @@ def insertDB(content):
         pass
 
 
-if __name__ == '__main__':
-    # 使用cursor()方法获取操作游标
-    connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='Yahoo_J',
-                                 charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
-    cur = connection.cursor()
-    #sql 语句
-    for i in range(1,1960):
-        sql = 'select * from allFirm_toeic where id = %s ' % i
-        # #执行sql语句
-        cur.execute(sql)
-        # #获取所有记录列表
-        data = cur.fetchone()
-        url_str = data['link']
-
-
-        html = call_page(url_str)
-        try:
-            content = parse_html(html)
-
-            content.append(url_str)
-
-            l_tuple = tuple(content)
-            f_l =[]
-            f_l.append(l_tuple)
-            insertDB(f_l)
-
-         
-            print(f_l)
-
-
-            print(datetime.datetime.now())
-            time.sleep(1)
-        except ValueError :
-            pass
-
-
+# if __name__ == '__main__':
+#     # 使用cursor()方法获取操作游标
+#     connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='Yahoo_J',
+#                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+#     cur = connection.cursor()
+#     #sql 语句
+#     for i in range(1,1960):
+#         sql = 'select * from allFirm_toeic where id = %s ' % i
+#         # #执行sql语句
+#         cur.execute(sql)
+#         # #获取所有记录列表
+#         data = cur.fetchone()
+#         url_str = data['link']
+#
+#
+#         html = call_page(url_str)
+#         try:
+#             big_list =[]
+#             content = parse_html(html)
+#
+#             print(content,url_str)
+#
+#
+#             print(datetime.datetime.now())
+#             time.sleep(1)
+#         except ValueError :
+#             pass
+#
+#
 
 
 # create table OneFirm_toeic(
@@ -158,3 +148,21 @@ if __name__ == '__main__':
 # drop table OneFirm_toeic;
 
 
+
+
+
+
+
+
+
+
+
+
+# url ='https://job.yahoo.co.jp/jobs/detail/227a40905591092646aea64c04a8c730d4ad74e4069199973c5cfe713812572e?keyword=TOEIC&l=東京都&side=1'
+
+url = 'https://c.stanby.com/v2/adpage?id=1384682200487710720&hid=96ddb7099118b2cde90577a4933c9029fe9ba738cf0066cedcb18a695661dc9b&tm=1569802962747'
+
+
+html =call_page(url)
+content = parse_html(html)
+print(content)

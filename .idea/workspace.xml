@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07da4cc0-a265-46d9-8c87-105cc1098c6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Yahoo_JAPAN_spiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Yahoo_JAPAN_spiders.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/Yahoo_Qt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/Yahoo_Qt.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/Yahoo_cPlus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/Yahoo_cPlus.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/finance_jobs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/finance_jobs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/java_job.json" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/java_job.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/python_job.json" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/python_job.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/security_jobs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/security_jobs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/web_jobs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/web_jobs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/yahoo_Qt_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/yahoo_Qt_job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/yahoo_c++_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/yahoo_c++_job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/yahoo_finance_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/yahoo_finance_jobs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/yahoo_java_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/yahoo_java_job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/yahoo_python_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/yahoo_python_job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/yahoo_security_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/yahoo_security_job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/yahoo_web_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/yahoo_web_jobs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match_J.py" beforeDir="false" afterPath="$PROJECT_DIR$/match_J.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/OneFirm_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/OneFirm_re.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>nofollow</find>
-      <find>'&lt;a rel=&quot;nofollow&quot; href=&quot;(.*?)&quot; class=&quot;resultItem</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,6 +75,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="parse_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Yahoo_JAPAN_spiders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/parse_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="yahoo_Qt_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,41 +138,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yahoo_python_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Yahoo_JAPAN_spiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jobs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jobs/yahoo_python_job.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.yahoo_python_job" />
       <item itemvalue="Python.yahoo_c++_job" />
       <item itemvalue="Python.yahoo_Qt_job" />
       <item itemvalue="Python.OneFirm_re" />
       <item itemvalue="Python.allFirm_re" />
+      <item itemvalue="Python.parse_test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.OneFirm_re" />
+        <item itemvalue="Python.parse_test" />
         <item itemvalue="Python.allFirm_re" />
         <item itemvalue="Python.yahoo_Qt_job" />
         <item itemvalue="Python.yahoo_c++_job" />
-        <item itemvalue="Python.yahoo_python_job" />
       </list>
     </recent_temporary>
   </component>
