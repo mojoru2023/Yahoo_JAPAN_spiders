@@ -1,8 +1,5 @@
 
-
-
-
-# 几个表不能有相同的字段
+ 几个表不能有相同的字段
 
 select OneFirm_toeic.Firm_toeic,allFirm_toeic.salary,allFirm_toeic.type,allFirm_toeic.job_name,allFirm_toeic.link from allFirm_toeic,OneFirm_toeic where OneFirm_toeic.link=allFirm_toeic.link limit 10;
 
@@ -27,15 +24,34 @@ a_link text
 drop table toeic_all;
 
 1.并表查询，插入新表已经解决，现在就是python脚本有些问题！
-2. 测试服务器跑脚本时，界面关闭了，脚本是否继续会运行？
+2. 测试服务器跑脚本时，界面关闭了，脚本是否继续会运行？ (跑的时候，把脚本给删掉过！)
 3. 数据库版本不一样，导出命令也不一样！数据库管理员去处理吧，
 ４．干脆直接直接执行调出成csv文件的python脚本即可！
 
-select * from toeic_all;
+select count(*) from toeic_all;
 
 select count(*) from allFirm_toeic;
 select count(*) from  OneFirm_toeic;
 
+
+drop table toeic_all;
+
+
+ create table OneFirm_toeic(
+ id int not null primary key auto_increment,
+ Firm_toeic varchar(20),
+ link text
+ ) engine=InnoDB  charset=utf8;
+
+
+
+
+
+
+
+
+
+drop table OneFirm_toeic;
 
 mysqldump -h localhost -uroot -p123456 Yahoo_J > dump.sql
 

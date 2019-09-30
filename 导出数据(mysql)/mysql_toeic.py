@@ -18,7 +18,6 @@ if __name__ =='__main__':
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
 
-    # sql 语句
     count_sql = "select count(*) from toeic_all; "
     cur.execute(count_sql)
     long_count = cur.fetchone()['count(*)']
@@ -33,10 +32,10 @@ if __name__ =='__main__':
         # #获取所有记录列表
         data = cur.fetchone()
         big_list.append(data)
-    print(big_list)
+   
 
     # #执行sql语句
 
     head = ['Firm_toeic','salary',"type","job_name","a_link"]
-    csv_dict_write('/home/w/j_toeic.csv',head,big_list)
+    csv_dict_write('/root/j_toeic.csv',head,big_list)
     print("数据导出完成～")
