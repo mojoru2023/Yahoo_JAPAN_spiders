@@ -43,6 +43,7 @@ def call_page(url):
     # return html
     try:
         response = requests.get(url)
+        time.sleep(8)
         if response.status_code == 200:
             return response.text
         return None
