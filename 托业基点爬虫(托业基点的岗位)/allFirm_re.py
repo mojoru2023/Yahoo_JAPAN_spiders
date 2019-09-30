@@ -83,11 +83,11 @@ if __name__ == '__main__':
 
 # salary,type,link,job_name
 # create table allFirm_toeic(
-# id int not null primary key auto_increment,
-# salary varchar(50),
-# type varchar(28),
-# link text,
-# job_name text
+id int not null primary key auto_increment,
+salary varchar(50),
+type varchar(28),
+link text,
+job_name text
 # ) engine=InnoDB  charset=utf8;
 
 # drop table allFirm_toeic;

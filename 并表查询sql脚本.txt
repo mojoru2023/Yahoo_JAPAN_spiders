@@ -1,0 +1,64 @@
+
+
+
+
+# 几个表不能有相同的字段
+
+select OneFirm_toeic.Firm_toeic,allFirm_toeic.salary,allFirm_toeic.type,allFirm_toeic.job_name,allFirm_toeic.link from allFirm_toeic,OneFirm_toeic where OneFirm_toeic.link=allFirm_toeic.link limit 10;
+
+查询出的字段名  Firm_toeic,salary,type,job_name,link
+查询数据插入新表
+
+insert into toeic_all(Firm_toeic,salary,type,job_name,a_link) select OneFirm_toeic.Firm_toeic,allFirm_toeic.salary,allFirm_toeic.type,allFirm_toeic.job_name,allFirm_toeic.link from allFirm_toeic,OneFirm_toeic where OneFirm_toeic.link=allFirm_toeic.link  ;
+
+
+select Firm_toeic,salary,type,job_name,a_link from toeic_all;
+
+
+create table toeic_all(
+id int not null primary key auto_increment,
+Firm_toeic varchar(20),
+salary varchar(50),
+type varchar(28),
+job_name text,
+a_link text
+) engine=InnoDB  charset=utf8;
+
+drop table toeic_all;
+
+1.并表查询，插入新表已经解决，现在就是python脚本有些问题！
+2. 测试服务器跑脚本时，界面关闭了，脚本是否继续会运行？
+3. 数据库版本不一样，导出命令也不一样！数据库管理员去处理吧，
+４．干脆直接直接执行调出成csv文件的python脚本即可！
+
+select * from toeic_all;
+
+select count(*) from allFirm_toeic;
+select count(*) from  OneFirm_toeic;
+
+
+mysqldump -h localhost -uroot -p123456 Yahoo_J > dump.sql
+
+导出数据表语句
+
+mysqldump -u用戶名 -p密码 -d 数据库名 表名 > 脚本名;
+
+mysqldump -h localhost -uroot -p123456 Yahoo_J  toeic_all > /root/toeic_all.sql
+
+ 
+导出整个数据库结构和数据
+mysqldump -h localhost -uroot -p123456 database > dump.sql
+
+mysqldump -uroot -p123456 -d Yahoo_J >db.sql;
+
+
+
+
+导出单个数据表结构和数据
+mysqldump -h localhost -uroot -p123456  database table > dump.sql
+
+ 
+
+导出整个数据库结构（不包含数据）
+
+mysqldump -h localhost -uroot -p123456  -d database > dump.sql

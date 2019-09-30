@@ -84,14 +84,14 @@ if __name__ == '__main__':
 #
 
 # #
-# create table yahoo_web_jobs(
-# id int not null primary key auto_increment,
-# job_name text,
-# link text,
-# info1 varchar(20),
-# short_info varchar(80),
-# info_from text
-# ) engine=InnoDB  charset=utf8;
+create table yahoo_web_jobs(
+id int not null primary key auto_increment,
+job_name text,
+link text,
+info1 varchar(20),
+short_info varchar(80),
+info_from text
+) engine=InnoDB  charset=utf8;
 #
 #
 #
