@@ -15,12 +15,7 @@ def call_page(url):
         return None
     except RequestException:
         return None
-def remove_block(items):
-    new_items = []
-    for it in items:
-        f = "".join(it.split())
-        new_items.append(f)
-    return new_items
+
 
 def find_longest_str(str_list):
     '''
@@ -32,31 +27,42 @@ def find_longest_str(str_list):
     return str_list[int(index_num)]
 
 
+def remove_block(items):
+    new_items = []
+    for it in items:
+        f = "".join(it.split())
+        new_items.append(f)
+    return new_items
+
 # 正则和lxml混用
 def parse_html(html):  # 正则专门有反爬虫的布局设置，不适合爬取表格化数据！
     big_list = []
     selector = etree.HTML(html)
-    job_name = selector.xpath('//*[@id="sr"]/div/div/h3/a/text()')
-    f_jobname= remove_block(job_name)
+    try:
+
+        job_name = selector.xpath('//*[@id="sr"]/div/div/h3/a/text()')
+        f_jobname= remove_block(job_name)
 
 
-    # 两种类型链接解析
-    link = selector.xpath('//*[@id="sr"]/div/div/h3/a/@href')
+        # 两种类型链接解析
+        link = selector.xpath('//*[@id="sr"]/div/div/h3/a/@href')
 
-    link_list = []
-    for item in link:
-        if item[0:4] == "http":
-            link_list.append(item)
-        else:
+        link_list = []
+        for item in link:
+            if item[0:4] == "http":
+                link_list.append(item)
+            else:
 
-            f_item = 'https://job.yahoo.co.jp' + item
-            link_list.append(f_item)
+                f_item = 'https://job.yahoo.co.jp' + item
+                link_list.append(f_item)
 
-    type = selector.xpath('//*[@id="sr"]/div/ul/li[1]/text()')
-    salary = selector.xpath('//*[@id="sr"]/div/ul/li[2]/text()')
-    for i1,i2,i3,i4 in zip(salary,type,link_list,f_jobname):
-        big_list.append((i1,i2,i3,i4))
-    return big_list
+        type = selector.xpath('//*[@id="sr"]/div/ul/li[1]/text()')
+        salary = selector.xpath('//*[@id="sr"]/div/ul/li[2]/text()')
+        for i1,i2,i3,i4 in zip(salary,type,link_list,f_jobname):
+            big_list.append((i1,i2,i3,i4))
+        return big_list
+    except  ValueError:
+        pass
 
 
 
@@ -67,7 +73,7 @@ def insertDB(content):
 
     cursor = connection.cursor()
     try:
-        cursor.executemany('insert into allFirm_toeic (salary,type,link,job_name) values (%s,%s,%s,%s)', content)
+        cursor.executemany('insert into ForLPI_Osaka (salary,type,link,job_name) values (%s,%s,%s,%s)', content)
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
@@ -77,8 +83,8 @@ def insertDB(content):
 
 
 if __name__ == '__main__':
-    for PageNum in range(1,101):
-        url = 'https://job.yahoo.co.jp/jobs/?&keyword=TOEIC&l=%E6%9D%B1%E4%BA%AC%E9%83%BD&side=1&page='+str(PageNum)+'&ssid=82d2ca42-5163-4882-a2be-fb7e3fd779fe'
+    for PageNum in range(39,101):
+        url = 'https://job.yahoo.co.jp/jobs/?&keyword=LPI&l=%E5%A4%A7%E9%98%AA%E5%BA%9C&side=1&page='+str(PageNum)+'&ssid=15e6e4f9-9671-45f9-9fad-7d597a781cda'
         html = call_page(url)
         content = parse_html(html)
         insertDB(content)
@@ -88,7 +94,7 @@ if __name__ == '__main__':
 
 
 # salary,type,link,job_name
-# create table allFirm_toeic(
+# create table ForLPI_Osaka(
 # id int not null primary key auto_increment,
 # salary varchar(50),
 # type varchar(28),
@@ -96,7 +102,7 @@ if __name__ == '__main__':
 # job_name text
 # ) engine=InnoDB  charset=utf8;
 
-# drop table allFirm_toeic;
+# drop table ForLPI_Osaka;
 
 #
 

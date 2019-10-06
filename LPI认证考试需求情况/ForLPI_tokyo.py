@@ -15,6 +15,7 @@ def call_page(url):
         return None
     except RequestException:
         return None
+
 def remove_block(items):
     new_items = []
     for it in items:
@@ -37,7 +38,7 @@ def parse_html(html):  # 正则专门有反爬虫的布局设置，不适合爬�
     big_list = []
     selector = etree.HTML(html)
     job_name = selector.xpath('//*[@id="sr"]/div/div/h3/a/text()')
-    f_jobname= remove_block(job_name)
+    f_jobname = remove_block(job_name)
 
 
     # 两种类型链接解析
@@ -67,7 +68,7 @@ def insertDB(content):
 
     cursor = connection.cursor()
     try:
-        cursor.executemany('insert into allFirm_toeic (salary,type,link,job_name) values (%s,%s,%s,%s)', content)
+        cursor.executemany('insert into ForLPI_tokyo (salary,type,link,job_name) values (%s,%s,%s,%s)', content)
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
@@ -78,7 +79,7 @@ def insertDB(content):
 
 if __name__ == '__main__':
     for PageNum in range(1,101):
-        url = 'https://job.yahoo.co.jp/jobs/?&keyword=TOEIC&l=%E6%9D%B1%E4%BA%AC%E9%83%BD&side=1&page='+str(PageNum)+'&ssid=82d2ca42-5163-4882-a2be-fb7e3fd779fe'
+        url = 'https://job.yahoo.co.jp/jobs/?&keyword=LPI&l=%E6%9D%B1%E4%BA%AC%E9%83%BD&side=1&page='+str(PageNum)+'&ssid=6da0a038-706b-4f4c-b2b3-c8a7bd8b0e7a'
         html = call_page(url)
         content = parse_html(html)
         insertDB(content)
@@ -88,7 +89,7 @@ if __name__ == '__main__':
 
 
 # salary,type,link,job_name
-# create table allFirm_toeic(
+# create table ForLPI_tokyo(
 # id int not null primary key auto_increment,
 # salary varchar(50),
 # type varchar(28),
@@ -96,7 +97,7 @@ if __name__ == '__main__':
 # job_name text
 # ) engine=InnoDB  charset=utf8;
 
-# drop table allFirm_toeic;
+# drop table ForLPI_tokyo;
 
 #
 
