@@ -50,3 +50,11 @@ e.东京，LPI与托业紧密关联！
 
 
 e级----->Linux Essentials---->go~
+
+
+
+2019.12.3
+
+东京都golang需求分析
+
+![image](https://github.com/Greenbirch2007/Yahoo_JAPAN_spiders/blob/master/Jobs/%E4%B8%9C%E4%BA%AC%E9%83%BDgo%E9%9C%80%E6%B1%82/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20191203225951.png)
