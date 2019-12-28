@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="07da4cc0-a265-46d9-8c87-105cc1098c6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux root 用户下 selenium 运行chrome --no-sandbox的问题的解决.png" beforeDir="false" afterPath="$PROJECT_DIR$/Linux root 用户下 selenium 运行chrome --no-sandbox的问题的解决.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/导出数据(mysql)/mysql_toeic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/并表查询sql脚本.txt" beforeDir="false" afterPath="$PROJECT_DIR$/并表查询sql脚本.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/allFirm_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/allFirm_re.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/j_toeic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/j_toeic.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/parse_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/parse_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/数据分析.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/数据分析.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930130624.png" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930130624.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930131140.png" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930131140.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930132344.png" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930132344.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930134247.png" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930134247.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930134854.png" beforeDir="false" afterPath="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/深度截图_选择区域_20190930134854.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ForLPI_tokyo">
+  <component name="RunManager" selected="Python.yahoo_Csharp_job">
     <configuration name="ForLPI_tokyo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,27 +66,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/OneFirm_re.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="allFirm_re" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Yahoo_JAPAN_spiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/allFirm_re.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,20 +116,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="yahoo_Csharp_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Yahoo_JAPAN_spiders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jobs/东京c#需求" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jobs/东京c#需求/yahoo_Csharp_job.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.OneFirm_re" />
-      <item itemvalue="Python.allFirm_re" />
       <item itemvalue="Python.parse_test" />
       <item itemvalue="Python.mysql_toeic" />
       <item itemvalue="Python.ForLPI_tokyo" />
+      <item itemvalue="Python.yahoo_Csharp_job" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yahoo_Csharp_job" />
         <item itemvalue="Python.ForLPI_tokyo" />
         <item itemvalue="Python.mysql_toeic" />
         <item itemvalue="Python.OneFirm_re" />
         <item itemvalue="Python.parse_test" />
-        <item itemvalue="Python.allFirm_re" />
       </list>
     </recent_temporary>
   </component>
