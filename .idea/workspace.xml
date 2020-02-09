@@ -16,7 +16,7 @@
   <component name="ProjectId" id="1RVfWMc45lECJ61peNQF1GLP6c2" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Recoding_go/go语言中文网(文章爬虫)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.yahoo_Csharp_job">
+  <component name="RunManager" selected="Python.yahoo_fundMa_job">
     <configuration name="ForLPI_tokyo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,27 +95,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parse_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Yahoo_JAPAN_spiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/托业基点爬虫(托业基点的岗位)/parse_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="yahoo_Csharp_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,20 +116,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="yahoo_fundMa_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Yahoo_JAPAN_spiders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jobs/东京基金经理需求" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jobs/东京基金经理需求/yahoo_fundMa_job.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.OneFirm_re" />
-      <item itemvalue="Python.parse_test" />
       <item itemvalue="Python.mysql_toeic" />
       <item itemvalue="Python.ForLPI_tokyo" />
       <item itemvalue="Python.yahoo_Csharp_job" />
+      <item itemvalue="Python.yahoo_fundMa_job" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yahoo_fundMa_job" />
         <item itemvalue="Python.yahoo_Csharp_job" />
         <item itemvalue="Python.ForLPI_tokyo" />
         <item itemvalue="Python.mysql_toeic" />
         <item itemvalue="Python.OneFirm_re" />
-        <item itemvalue="Python.parse_test" />
       </list>
     </recent_temporary>
   </component>
