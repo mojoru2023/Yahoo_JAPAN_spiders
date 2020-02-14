@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07da4cc0-a265-46d9-8c87-105cc1098c6a" name="Default Changelist" comment="" />
+    <list default="true" id="07da4cc0-a265-46d9-8c87-105cc1098c6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/东京fundmanger需求　.xls" beforeDir="false" afterPath="$PROJECT_DIR$/东京fundmanger需求　.xls" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,9 @@
   </component>
   <component name="ProjectId" id="1RVfWMc45lECJ61peNQF1GLP6c2" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LIST_learning1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -29,7 +33,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.yahoo_tokyo_CFA">
+  <component name="RunManager" selected="Python.yahoo_tokyo_docker">
     <configuration name="ForLPI_tokyo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -43,27 +47,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LPI认证考试需求情况/ForLPI_tokyo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mysql_toeic" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Yahoo_JAPAN_spiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/导出数据(mysql)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/导出数据(mysql)/mysql_toeic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,20 +118,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="yahoo_tokyo_docker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Yahoo_JAPAN_spiders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jobs/东京docker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jobs/东京docker/yahoo_tokyo_docker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.mysql_toeic" />
       <item itemvalue="Python.ForLPI_tokyo" />
       <item itemvalue="Python.yahoo_Csharp_job" />
       <item itemvalue="Python.yahoo_fundMa_job" />
       <item itemvalue="Python.yahoo_tokyo_CFA" />
+      <item itemvalue="Python.yahoo_tokyo_docker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yahoo_tokyo_docker" />
         <item itemvalue="Python.yahoo_tokyo_CFA" />
         <item itemvalue="Python.yahoo_fundMa_job" />
         <item itemvalue="Python.yahoo_Csharp_job" />
         <item itemvalue="Python.ForLPI_tokyo" />
-        <item itemvalue="Python.mysql_toeic" />
       </list>
     </recent_temporary>
   </component>
