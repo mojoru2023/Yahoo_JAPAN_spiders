@@ -2,39 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07da4cc0-a265-46d9-8c87-105cc1098c6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/导出数据_mysql/mysql_Tokyo_CCNA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Yahoo_JAPAN_spiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Yahoo_JAPAN_spiders.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/东京fundmanger需求　.xls" beforeDir="false" afterPath="$PROJECT_DIR$/东京fundmanger需求　.xls" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RVfWMc45lECJ61peNQF1GLP6c2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.yahoo_tokyo_docker">
-    <configuration name="ForLPI_tokyo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mysql_Tokyo_CCNA">
+    <configuration name="asyncio_CCNA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -42,11 +44,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LPI认证考试需求情况" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/思科认证考试CCNA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LPI认证考试需求情况/ForLPI_tokyo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/思科认证考试CCNA/asyncio_CCNA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -55,7 +57,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yahoo_Csharp_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mysql_Tokyo_CCNA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jobs/东京c#需求" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/导出数据_mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jobs/东京c#需求/yahoo_Csharp_job.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/导出数据_mysql/mysql_Tokyo_CCNA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yahoo_fundMa_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="threading_CCNA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jobs/东京基金经理需求" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/思科认证考试CCNA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jobs/东京基金经理需求/yahoo_fundMa_job.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/思科认证考试CCNA/threading_CCNA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yahoo_tokyo_CFA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yahoo_CCNA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yahoo_JAPAN_spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jobs/东京CFA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/思科认证考试CCNA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jobs/东京CFA/yahoo_tokyo_CFA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/思科认证考试CCNA/yahoo_CCNA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,19 +142,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ForLPI_tokyo" />
-      <item itemvalue="Python.yahoo_Csharp_job" />
-      <item itemvalue="Python.yahoo_fundMa_job" />
-      <item itemvalue="Python.yahoo_tokyo_CFA" />
       <item itemvalue="Python.yahoo_tokyo_docker" />
+      <item itemvalue="Python.yahoo_CCNA" />
+      <item itemvalue="Python.asyncio_CCNA" />
+      <item itemvalue="Python.threading_CCNA" />
+      <item itemvalue="Python.mysql_Tokyo_CCNA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mysql_Tokyo_CCNA" />
+        <item itemvalue="Python.asyncio_CCNA" />
+        <item itemvalue="Python.threading_CCNA" />
+        <item itemvalue="Python.yahoo_CCNA" />
         <item itemvalue="Python.yahoo_tokyo_docker" />
-        <item itemvalue="Python.yahoo_tokyo_CFA" />
-        <item itemvalue="Python.yahoo_fundMa_job" />
-        <item itemvalue="Python.yahoo_Csharp_job" />
-        <item itemvalue="Python.ForLPI_tokyo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,5 +183,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1343" height="163" key="GridCell.Tab.0.bottom" timestamp="1586593730190">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1343" height="163" key="GridCell.Tab.0.bottom/0.0.1366.714@0.0.1366.714" timestamp="1586593730190" />
+    <state width="1343" height="163" key="GridCell.Tab.0.center" timestamp="1586593730189">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1343" height="163" key="GridCell.Tab.0.center/0.0.1366.714@0.0.1366.714" timestamp="1586593730189" />
+    <state width="1343" height="163" key="GridCell.Tab.0.left" timestamp="1586593730189">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1343" height="163" key="GridCell.Tab.0.left/0.0.1366.714@0.0.1366.714" timestamp="1586593730189" />
+    <state width="1343" height="163" key="GridCell.Tab.0.right" timestamp="1586593730190">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1343" height="163" key="GridCell.Tab.0.right/0.0.1366.714@0.0.1366.714" timestamp="1586593730190" />
+    <state x="221" y="0" key="SettingsEditor" timestamp="1586592485967">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="221" y="0" key="SettingsEditor/0.0.1366.714@0.0.1366.714" timestamp="1586592485967" />
   </component>
 </project>
